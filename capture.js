@@ -22,7 +22,7 @@ const slides = [
 
   const browser = await chromium.launch();
   const context = await browser.newContext({
-    viewport: { width: 1920, height: 1080 }
+    viewport: { width: 2160, height: 3840 }
   });
 
   for (const slide of slides) {
