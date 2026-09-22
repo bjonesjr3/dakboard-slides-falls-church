@@ -3,18 +3,18 @@ const fs = require('fs');
 
 // Your exact Canva links
 const slides = [
-  { name: 'openingslide.png', url: 'https://www.canva.com/design/DAHV7wbQy60/enU9OQDLjcFDQ4ND8y9j0g/view' },
-  { name: 'lighthouse.png', url: 'https://www.canva.com/design/DAHV797f8YY/wrUCmYh0YwF_ORTCDvifqw/view' },
-  { name: 'basictraining.png', url: 'https://www.canva.com/design/DAHV75F7VE8/h583LtW-t0hOnG7PNm6PgQ/view' },
-  { name: 'baptism.png', url: 'https://www.canva.com/design/DAHV731CTnw/VO6DUqO3iyJrm_TtvxWFaw/view' },
-  { name: 'csm.png', url: 'https://www.canva.com/design/DAHV78h77mg/m9v2WD_e_vBYAoJIBlEIqA/view' },
-  { name: 'lightteam.png', url: 'https://www.canva.com/design/DAHV73duYf0/j-0Ve_J6xAoDv3n1iHsVBQ/view' },
-  { name: 'discipleshipintensive.png', url: 'https://www.canva.com/design/DAHV8UyEyjs/yj7Fmo-gQP9ihqMlVvGEfQ/view' },
-  { name: 'christianityexplored.png', url: 'https://www.canva.com/design/DAHV79oPunw/Ks2sCKaLfl-mcC2jOU6P5g/view' },
-  { name: 'weeklyevents.png', url: 'https://www.canva.com/design/DAHV78cgbHo/cJIgN9KuV0nzb0-uviK8cQ/view' },
-  { name: 'eventspage.png', url: 'https://www.canva.com/design/DAHV7zAuk1k/W8I5PMtLalA2E3L-p3j8SQ/view' },
-  { name: 'socials.png', url: 'https://www.canva.com/design/DAHV7-grNrE/rSsNorOQ9-ab8shje3YmBg/view' },
-  { name: 'endslide.png', url: 'https://www.canva.com/design/DAHV74NTGkc/XLqcWMutFxTNGcyduKLunQ/view' }
+  { name: 'openingslide.png', url: 'https://www.canva.com/design/DAHV8g2BZ6g/elyMbOKwk_dHfv0Nlcis5g/view' },
+  { name: 'lighthouse.png', url: 'https://www.canva.com/design/DAHV8mNtZxc/5xpkn0EHC5auuDAQrUbKBA/view' },
+  { name: 'basictraining.png', url: 'https://www.canva.com/design/DAHV8vQn4wk/kLXJMW-d7k7KcFgdBpnrZA/view' },
+  { name: 'baptism.png', url: 'https://www.canva.com/design/DAHV8iNAnQM/v7DwBm5O_Ostl5L_DMBXRA/view' },
+  { name: 'csm.png', url: 'https://www.canva.com/design/DAHV8tNew7Y/31NmDtfJ4i4NchST8rSdhg/view' },
+  { name: 'lightteam.png', url: 'https://www.canva.com/design/DAHV8gVWpJo/6_XIjl0rpRO-9jqOyw3-fg/view' },
+  { name: 'discipleshipintensive.png', url: 'https://www.canva.com/design/DAHV8hYlzbM/CGZpRchI0OKWt2_SLQSIEw/view' },
+  { name: 'christianityexplored.png', url: 'https://www.canva.com/design/DAHV8qZjJY8/bv6aRT4dbIkQWoca44-G2g/view' },
+  { name: 'weeklyevents.png', url: 'https://www.canva.com/design/DAHV8vAyDew/ZxM05sNzvH2q0H2AWiFVIA/view' },
+  { name: 'eventspage.png', url: 'https://www.canva.com/design/DAHV8gWbwD0/1XhB9LdFKz0Z27tUXXQSwg/view' },
+  { name: 'socials.png', url: 'https://www.canva.com/design/DAHV8rZLy8Y/jFn1ql5KcF5vUFfZkE4dew/view' },
+  { name: 'endslide.png', url: 'https://www.canva.com/design/DAHV8ngJdhI/jOYHxQmLoUJi_HAXD9givA/view' }
 ];
 
 (async () => {
