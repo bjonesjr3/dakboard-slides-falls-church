@@ -12,7 +12,9 @@ const slides = [
   { name: 'lightteam.png', url: 'https://www.canva.com/design/DAHSvNQgGxo/PNsGUrduB5ziPc1QBO9lzw/view' },
   { name: 'discipleshipintensive.png', url: 'https://www.canva.com/design/DAHTgHliE6Q/46rYBZFO7lMTJJT1IutshQ/view' },
   { name: 'christianityexplored.png', url: 'https://www.canva.com/design/DAHSvCzwdU8/vRRkHVsdHzbWJ5HPgv4ZHg/view' },
-  { name: 'events.png', url: 'https://www.canva.com/design/DAHSvIZhv9U/ZHQFT9KxrbD8LXZ95Zbs6A/view' }
+  { name: 'weeklyevents.png', url: 'https://www.canva.com/design/DAHSvIZhv9U/ZHQFT9KxrbD8LXZ95Zbs6A/view' },
+  { name: 'eventspage.png', url: 'https://www.canva.com/design/DAHSvF2sDcI/ULeOkKs0_1QS2N0SiXz5aQ/view' },
+  { name: 'endslide.png', url: 'https://www.canva.com/design/DAHV8gD2ecE/uodcC7Pja_3RYNbv38m8EA/view' }
 ];
 
 (async () => {
